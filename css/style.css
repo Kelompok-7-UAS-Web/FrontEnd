@@ -1,0 +1,45 @@
+.banner {
+  background: url("src/assets/gambar/banner ATV.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+.fontabout{
+  font-size: 20px;
+}
+.row {
+  margin-left: 270px;
+  margin-right: 0px;
+}
+.rutegambar {
+  padding-left: -100px;
+  margin-left: -250px;
+}
+.card-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: inherit;
+  font-size: 17pt;
+}
+.card-text{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: initial;
+}
+#rute {
+  color: darkgray;
+  font-family: monospace;
+  font-size: 60pt;
+}

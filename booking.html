@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Booking</title>
+<link rel="stylesheet" href="/css/style2.css">
+</head>
+<title> Booking </title>
+<body>
+  <div id="reg" class="container bg-success" style="height: auto;">
+    <div class="Booking">
+    <div class="col-lg-12 col-sm-12 col-md-12">
+        <h1 class="text-center text-white">Booking</h1>
+    </div>
+    </div>
+    <div class="container-fluid ">
+      <form action="" class="container">
+        <div class="container-fluid">
+          <div class="row">
+            <div class=" col-lg-6 text-center"> <label for="">Nama Pemesan</label></div>
+            <div class=" col-lg-6"> <input type="text" name="" id="cName" class="form form-control" /></div>
+          </div>
+          <div class="row">
+            <div class=" col-lg-6 text-center"> <label for="">Id Pemesan</label></div>
+            <div class=" col-lg-6"> <input type="text" name="" id="IdName" class="form form-control" /></div>
+          </div>
+          <div class="row">
+            <div class=" col-lg-6 text-center"> <label for="">Hari</label></div>
+            <div class=" col-lg-6"><input type="date" name="" id="date" class="form form-control" /></div>
+          </div>
+          <div class="row">
+            <div class=" col-lg-6 text-center"> <label for="">Waktu</label></div>
+            <div class=" col-lg-6"> <input type="time" name="" id="time" class="form form-control" /></div>
+          </div>
+          <div class="row">
+            <div class=" col-lg-6 text-center"> <label for="">Pesanan<label></div>
+            <select id="Pesanan">
+            <option value=""></option>
+            <option value="Single">Single</option>
+            <option value="TANDEM">Tandem</option>
+          </select>
+          </div>
+        </div>
+          <div class="row">
+            <div class=" col-lg-6 text-center"> <label for="">Jumlah ATV</label></div>
+            <div class=" col-lg-6"> <input type="number" name="" id="TotalATV" class="form form-control"
+                oninput="activeReg()" /></div>
+          </div>
+          <div class="row">
+            <div class=" col-lg-6 text-center"> <label for="">Pay</label></div>
+            <div class=" col-lg-6"> <input type="number" name="" id="Pay" class="form form-control"
+                oninput="activeReg()" /></div>
+          </div>
+        </div>
+        <div class=" container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <div class="container" style="background-color:#f1f1f1">
+                <button onsubmit="validasi">Booking</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="/src/components/booking.js">
+  </script> 
+</body>
+</html>

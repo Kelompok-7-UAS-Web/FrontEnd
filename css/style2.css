@@ -1,0 +1,47 @@
+
+* {
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box !important;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+input, label {
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    padding: 1px 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+button {
+    align-self: center;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1px 2px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+

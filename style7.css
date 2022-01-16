@@ -1,0 +1,156 @@
+/* pengaturan body*/
+body {
+	background-color	:white;
+	text-align			: center;
+	font-family			: "comic sans ms";
+	font-size			: 14px;
+}
+
+
+
+/* pengaturan layout utama */
+#layout {
+	background			: white;
+	width				: 980px;
+	margin				: auto;
+	text-align			: left;
+	padding				: 2px;
+}
+#header{
+	width				: 100%;
+	height				: 150;
+	background-color	: white
+	position			: relative;
+}
+header{
+	width				: 100%;
+	height				: 150px;
+}
+
+
+ /*pengaturan menu*/
+#menu{
+	width				: 100%;
+	height				: 40px;
+	background-color	: black;
+	position			: relative;
+}
+/*pengaturan menu*/
+#menu ul {
+	margin				: 1;
+	padding				: 1;
+	list-style			: none;
+}
+#menu ul li {
+	float				: left;
+}
+#menu ul li a {
+	float				: left;
+	color				: #d4d4d4;
+	padding				: 12px 20px;
+	text-decoration		: none;
+	background			: black;
+	border-left			: 1px solid #3c4042;
+	border-right		: 1px solid #3c4042;
+	text-shadow			: 0 -1px 1px rgba {0, 0, 0, 0.6};
+	
+}
+#menu ul li a:hover{
+	color				: green;
+	background			: #3c4042;
+}
+
+
+/*pengaturan runingtext*/
+#runningtext{
+	width				: 101%;
+	height				: 25px;
+	padding-top			: 0px;
+	margin				: 0px 0 0px 0;
+	background-color	: white;
+	color				: black;
+	position			: relative;
+	font-size			: 14pt;
+	font-family: "comic sans ms";
+}
+
+
+/*pengaturan isi*/
+#isi{
+	padding				: 2px;
+	width				: 101%;
+	height				: auto;
+	background-color	:  white;
+	position			: relative;
+	margin-top			: 0px;
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color	: black;
+	width				: 98%;
+	height				: 200px;
+	margin-bottom		: 5px;
+	padding				: 5px;
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: "comic sans ms";
+}
+/*pengaturan gambar di halaman depan*/
+.gambardepan{
+	float				: left;
+	height				: 190;
+	width				: 400px;
+	margin-right		: 5px;
+	margin-top			: 3px;
+	padding				: 1px;
+	border				: 1px solid #dddddd;
+}	
+
+
+#footer{
+	width				: 100%;
+	height				: 25px;
+	margin-top			: 0px;
+	padding-top			: 30;
+	background-color	: black;
+	color				: white;
+	font-size			: 14pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+	font-family: "comic sans ms";
+}	
+.profil {
+	display				: block;
+	float				: none;
+	padding-right		: 10px;
+	font-family: "comic sans ms";
+}
+.profil h2{
+	text-align			: center;
+	color				: #fcfcfc
+	font-size			: 20px;
+	font-weight			: bold;
+	font-family: "comic sans ms";
+	
+	
+.kontak {
+	background-color	: #ba7584;
+	color				: black;
+	font-size			: 14pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}	
+
+/*Pengaturan daftar*/
+.form-inner{
+	position :absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	padding: 20px 25px;
+	width: 300px;
+}	
+	
